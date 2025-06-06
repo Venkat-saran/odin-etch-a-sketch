@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="etch-a-sketch.js"></script>
+  <link href="etch-a-sketch.css" rel="stylesheet">
+  <title>Etch-a-Sketch</title>
+</head>
+<body>
+  <h1>Project: Etch-a-Sketch</h1>
+  <p>
+    <a>Click here</a> for another version of the Webpage, involving random colors.
+  </p>
+  <div class="button-container">
+    <button class="grid-dimension-button">Change Dimensions</button>
+    <button class="trail-color-button">Change Current Color</button>
+    <button class="current-dimension-button">Current Dimensions</button>
+    <button class="show-grid-button">Show Gridlines</button>
+    <button class="persist-button">Don't Persist</button>
+  </div>
+  <div class="container"></div>
+  <div>
+    <div class="under-container">
+      <div class="under-container-current-color">
+        <p class="current-color-para">
+          Current Color: BLACK
+        </p>
+        <div class="current-color-block"></div>
+      </div>
+      <div>
+        <button class="clear-button">Clear Board</button>
+      </div>
+    </div>
+    <div class="colors-used-div">
+      <p>Colors used recently (click to use): </p>
+      <button class="used-color-button"></button>
+    </div>
+    <ul class="unordered-list">
+      <li>
+        Hold down 'Shift' and hover over existing Trail to erase it. (like an Eraser tool)
+      </li>
+      <li>
+        Hold down the 'Ctrl' key to hover safely without leaving a Trail.
+      </li>
+      <li>
+        Press 'q' or 'Q' to clear the board.
+      </li>
+      <li>
+        Setting the value to 'persist' will leave a trail, like a pen on a board would.
+      </li>
+      <li>
+        'Don't Persist' will make the cursor feel like a pointer of the current color, moving across the board as the cursor moves.
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
