@@ -1,5 +1,4 @@
-# <a src="https://www.theodinproject.com/lessons/foundations-etch-a-sketch">Project: Etch-a-Sketch</a>
-(from The Odin Project)
+# <a src="https://www.theodinproject.com/lessons/foundations-etch-a-sketch">Project: Etch-a-Sketch</a> (under The Odin Project)
 
 This project is a part of the Foundations Course of "The Odin Project".
 
