@@ -1,3 +1,13 @@
+.change-version-div {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.change-version-button {
+  margin-right: 6px;
+}
+
 .container {
   height: 400px;
   width: 400px;
@@ -22,6 +32,7 @@
   border-width: 0px;
   flex-grow: 1;
   background-color: white;
+  opacity: 1;
 }
 
 .current-color-para {
